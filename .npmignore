@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+package-lock.json
+*.bak
+*.swp
+*.swo
+*.log
+*.gz
+*.tgz
+.DS_Store
+yarn.lock

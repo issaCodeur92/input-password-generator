@@ -1,0 +1,58 @@
+{
+  "name": "input-password-generator",
+  "version": "1.0.0",
+  "description": "Ce package est un input générateur de mot de passe avec une boîte de dialogue utilisant la bibliothèque SweetAlert2. Le package INPUT-PASSWORD-GENERATOR est facile à utiliser et prend en compte le nombre de lettres majuscules, le nombre de lettres minuscules, le nombre de caractères spéciaux et le nombre de chiffres qui seront prédéfinis par le développeur. De plus, il offre la possibilité de modifier le texte du menu pop-up et le texte des boutons du menu pop-up, ainsi que la disposition de l'input. Ce package est une solution pratique et efficace pour les développeurs qui souhaitent donner le choix à leurs visiteurs de générer un mot de passe pour leur permettre de continuer leur processus sans perdre de temps. De plus, il offre une alternative sécurisée à l'utilisation d'un mot de passe lorsqu'un visiteur ne souhaite pas en créer un lui-même.",
+  "main": "src/main.js",
+  "author": "issaCodeur",
+  "license": "MIT",
+  "keywords": [
+    "form",
+    "password",
+    "generator",
+    "password-generator",
+    "input",
+    "input-password",
+    "vue",
+    "vue-password"
+  ],
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "sweetalert2": "^11.7.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
